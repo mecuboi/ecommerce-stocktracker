@@ -11,6 +11,8 @@ Install the prerequisite package by running the command below:
 npm i
 ```
 
+After that you need to get the .env.EXAMPLE file and remove the .EXAMPLE from the name. Then fill in the username and password of your mysql inside the single quotes.
+
 Then you would need to seed the data into the database to run some testing. Use the command below:
 ```
 node seeds/index.js
@@ -44,7 +46,6 @@ https://drive.google.com/file/d/1uRbMObCH8zIPOFCagu2hCDm0mM1eg_eL/view
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mecuboi/ecommerce-stocktracker/blob/main/LICENSE)
-Click the icon to read the license
 
 
 ## Questions
